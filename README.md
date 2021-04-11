@@ -11,10 +11,14 @@ Rest API menggunakan framework Laravel
 8. php artisan migrate atau php artisan migrate:fresh
 
 URL Api
-Get All Data|GET| Isi data di params : http://localhost:8000/identitas 
+Get All Data|GET| Isi data di params : http://localhost:8000/identitas
+
 Store Data|POST| Isi data di body>x-www-form-url-encoded : http://localhost:8000/identitas
+
 show Data|GET| Isi data di params : http://localhost:8000/identitas/{id}
+
 update Data|PUT| Isi data di body>x-www-form-url-encoded : http://localhost:8000/identitas/{id}
+
 delete data|DELETE | Isi data di params : http://localhost:8000/identitas/{id}
 
 
