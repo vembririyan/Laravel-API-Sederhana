@@ -10,6 +10,9 @@ Rest API menggunakan framework Laravel
 7. Buat database dengan nama restapi
 8. php artisan migrate atau php artisan migrate:fresh
 
+Note: kalo buat API setiap url yg mau di pakai didaftarin di $except di file middleware
+cek di App>Http>Middleware>VerifyCsrfToken.php
+
 URL Api
 Get All Data|GET| Isi data di params : http://localhost:8000/identitas
 
